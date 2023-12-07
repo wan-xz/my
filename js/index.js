@@ -23,7 +23,7 @@ var div = document.getElementById('jzsc');
 // 计算本站安全运行时长的函数
 function getRunningTime() {
   var now = new Date();
-  var startDate = new Date('2018-11-20'); // 假设站点开始运行的日期为2022年1月1日
+  var startDate = new Date('2016-12-15'); // 假设站点开始运行的日期为2016年12月15日
 
   var diff = now - startDate; // 相差的毫秒数
 
